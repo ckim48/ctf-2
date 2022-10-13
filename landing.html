@@ -24,19 +24,7 @@
     </div>
 
     <div class="d-flex algin-itmes-center justify-content-center fade2">
-        <button onclick="checkAdmin();" type="submit" class="submit btn btn-outline-success">Blog</button>
+        <button type="submit" class="submit btn btn-outline-success">Blog</button>
     </div>
 </body>
 
-<script>
-    function checkAdmin(){
-        const adminValue = window.localStorage.getItem('isAdmin');
-
-        if(adminValue == "true"){
-            window.location.assign("localhost:3000/blog");
-        }else{
-            alert("Can't login");
-        }
-    }
-
-</script>
