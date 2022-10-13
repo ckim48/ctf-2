@@ -46,9 +46,9 @@
               <input type="text" id="inputPassword" name="password" class="form-control form-control-lg" placeholder="Password">
             </div>
 
-            <div>
+           
               <a href="landing.html"><input type="submit" class="btn btn-info btn-lg btn-primary" value="Login"></input></a>
-            </div>
+           
             
           </form>
         </div>
@@ -64,31 +64,9 @@
 </html>
 
 <script>
-function animals(){
-    // JSON
-    var animalObject = {
-      'Password': 'Wild2',
-      'Username': 'Domestic'
-    };
 
-    // flatten the animal object as a string
-    animalString = JSON.stringify(animalObject);
-
-    //store the string into local storage
-    localStorage.setItem('Admin', animalString);
-    localStorage.setItem('isAdmin','false');
-}
 </script>
 
 <script>
-  function checkAdmin(){
-    console.log("asdfjlkasdf");
-    const checkUsername = document.getElementById("inputUsername").text;
-    const checkPassword = document.getElementById("inputPassword").text;
-    console.log(checkUsername);
 
-    if(checkUsername == "Domestic" && checkPassword == "Wild"){
-      localStorage.setItem('isAdmin','true');
-    }
-  }
 </script>
