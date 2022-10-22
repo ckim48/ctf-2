@@ -66,6 +66,7 @@ h1{
 }
 #mainNav .navbar-brand {
   color: #fff;
+  float: right;
 }
 #mainNav .navbar-nav {
   margin-top: 1rem;
@@ -166,4 +167,23 @@ h1{
 
 .copyright {
   background-color: #1a252f;
+}
+
+.rightFloat{
+  float: right;
+}
+
+.leftFloat{
+  float:left;
+}
+
+.loginBtn{
+  background-color: #585892;
+  padding: 4px;
+}
+
+.toBlog{
+  background-color: #54678a;
+  color: #fff;
+  padding: 4px;
 }
