@@ -21,21 +21,24 @@
 
         <h1>Title - 2day's date - aUtHoR</h1>
         <p class="blog_content">asdjfklasdfjlk;asdjfkl;asdjfl;ajsa;df;asljdjfl;k</p>
-
-
-        <textarea type="text" class="input" id="text" placeholder="Write a comment" cols="50" rows="3"></textarea><br>
+    </div>
+    <div class="mt-5">
+            <textarea type="text" class="input" id="text" placeholder="Write a comment" cols="50" rows="3"></textarea><br>
         <button onclick="onPosting();" type="submit" class="myButton mb-5" style="display: block; margin: 0 auto;">Submit</button>
-
-        <div id="commentList" style="padding-left: 20%;">
-            <script>
-                function onPosting() {
-                    const comment = document.getElementById("text").value+"\n"
-                    const commentList = document.getElementById("commentList")
-                    commentList.insertAdjacentHTML('afterbegin', `- ${comment}<br/>`);                
-                }
-            </script>
-        </div>
-
+        <div class="card mx-5">
+             <div class="card-body">
+                <h5>Comments:</h5>
+                <div id="commentList" style="padding-left: 20%;">
+                    <script>
+                        function onPosting() {
+                            const comment = document.getElementById("text").value+"\n"
+                            const commentList = document.getElementById("commentList")
+                            commentList.insertAdjacentHTML('afterbegin', `- ${comment}<br/>`);                
+                        }
+                    </script>
+                </div>
+                </div>
+         </div>
     </div>
 </body>
 
