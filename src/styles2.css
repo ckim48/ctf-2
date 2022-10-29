@@ -11563,7 +11563,7 @@ body {
   position: relative;
   width: 100%;
   height: auto;
-  min-height: 35rem;
+  min-height: 40  rem;
   padding: 15rem 0;
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("img/security2.jpg");
   background-position: center;
@@ -11611,6 +11611,10 @@ body {
 .about-section {
   padding-top: 10rem;
   background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+}
+.about-project{
+  /* background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0%, #121212 55%, #040404 100%); */
+  background-color: #505050;
 }
 .about-section p {
   margin-bottom: 5rem;
@@ -11700,7 +11704,12 @@ body {
 }
 .img2{
   border-radius: 10%;
+  
 }
 .footer {
   padding: 5rem 0;
+}
+
+.pj{
+  width: 40%;
 }

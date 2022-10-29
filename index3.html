@@ -14,6 +14,9 @@
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="src/styles2.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
     </head>
     <body id="page-top">
         <!-- Navigation-->
@@ -50,12 +53,13 @@
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-md-5 col-sm-2">
-                        <img class="img-fluid img2 mb-3" src="src/img/security.jpeg" alt="..." />
+                        <img class="img-fluid img2 mb-3" src="src/img/security.jpeg" alt="..."  data-aos="fade-right" data-aos-delay="100"/>
                     </div>
                     <div class="col-md-7 col-sm-2">
-                        <h2 class="text-white mb-4">About Me</h2>
-                        <p class="text-white-50">
-                            Explanation about the project
+                        <h2 class="text-white mb-4" style="font-weight: 600;" data-aos="fade-left" data-aos-delay="100">About Me</h2>
+                        <p class="text-white-50" data-aos="fade-left" data-aos-delay="100">
+                            A place to learn web hacking
+                            sql injection, xss, and more
 
                             1-2 Paragraphs
                         </p>
@@ -64,6 +68,7 @@
 
             </div>
         </section>
+<<<<<<< HEAD
                         <section class="about-section text-center" id="projects">
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
@@ -79,14 +84,33 @@
                 <img class="img-fluid img2 mb-3" src="src/img/security.jpeg" alt="..." />
             </div>
         </section>
+=======
+>>>>>>> da26bcb43d026716cdc5d94bef6d497b79642094
         <section class="about-section text-center" id="about">
             <div class="container px-4 px-lg-5">
-                <h2 class="text-white mb-4">Steps</h2>
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-8">
+                        <h2 class="text-white" style="font-weight: 600;" data-aos="fade-down">About the Projects</h2>
+                        <p class="text-white-50" data-aos="fade-down"
+                        data-aos-anchor-placement="center-center">
+                            A place to learn web hacking
+                            sql injection, xss, and more
+
+                            1-2 Paragraphs
+                        </p>
+                    </div>
+                </div>
+                <img class="img-fluid img2 mb-5 pj" src="src/img/security.jpeg" alt="..."/>
+            </div>
+        </section>
+        <section class="about-project text-center" id="about">
+            <div class="container px-4 px-lg-5 pb-3">
+                <h1 class="text-white mb-sm-3 pt-5" style="font-weight: 600;" data-aos="fade-down">Steps</h1>
 
                 <div class="row gx-4 gx-lg-5 justify-content-center mt-5">
                     <div class="col-md-4 col-sm-2">
-                        <h2 class="text-white mb-4">Step 1</h2>
-                        <p class="text-white-50">
+                        <h3 class="text-white mb-2" data-aos="fade-right">Step 1</h3>
+                        <p class="text-white-50" data-aos="fade-right">
                             Explanation about the project
 
                             1-2 Paragraphs
@@ -94,18 +118,17 @@
                     </div>
                     <div class="col-md-4 col-sm-2">
 
-                      <img class="img-fluid img2 mb-3" src="src/img/security.jpeg" alt="..." />
+                        <img class="img-fluid img2 mb-3" data-aos="fade-left" src="src/img/security.jpeg" alt="..." />
                     </div>
                 </div>
                 <div class="row gx-4 gx-lg-5 justify-content-center mt-5">
                     <div class="col-md-4 col-sm-2">
-
-                                              <img class="img-fluid img2 mb-3" src="src/img/security.jpeg" alt="..." />
+                        <img class="img-fluid img2 mb-3" data-aos="fade-right" src="src/img/security.jpeg" alt="..." />
                     </div>
                     <div class="col-md-4 col-sm-2">
 
-                        <h2 class="text-white mb-4">Step 2</h2>
-                        <p class="text-white-50">
+                        <h3 class="text-white mb-4"  data-aos="fade-left">Step 2</h3>
+                        <p class="text-white-50"  data-aos="fade-left">
                             Explanation about the project
 
                             1-2 Paragraphs
@@ -120,7 +143,7 @@
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5">
 
-                    <div class="col-md-4 mb-3 mb-md-0">
+                    <div class="col-md-4 mb-3 mb-md-0" data-aos="flip-left">
                         <div class="card py-4 h-100">
                             <div class="card-body text-center">
                                 <i class="fa-solid fa-envelope"></i>
@@ -130,7 +153,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 mb-3 mb-md-0">
+                    <div class="col-md-4 mb-3 mb-md-0" data-aos="flip-up">
                         <div class="card py-4 h-100">
                             <div class="card-body text-center">
                                 <i class="fa-solid fa-phone"></i>
@@ -140,7 +163,7 @@
                             </div>
                         </div>
                     </div>
-                                        <div class="col-md-4 mb-3 mb-md-0">
+                    <div class="col-md-4 mb-3 mb-md-0" data-aos="flip-right">
                         <div class="card py-4 h-100">
                             <div class="card-body text-center">
                                 <i class="fa-brands fa-github-alt"></i>
@@ -161,5 +184,10 @@
         <script src="src/scripts2.js"></script>
 
         <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init();
+        </script>
     </body>
 </html>
