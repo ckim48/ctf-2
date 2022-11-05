@@ -11609,7 +11609,7 @@ body {
 }
 
 .about-section {
-  padding-top: 10rem;
+  padding-top: 13rem;
   background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
 }
 .about-project{
@@ -11702,14 +11702,12 @@ body {
 .contact-section .social a:active {
   color: #fff;
 }
-.img2{
-  border-radius: 10%;
-  
-}
 .footer {
   padding: 5rem 0;
 }
-
+.img2{
+  border-radius: 20px;
+}
 .pj{
   width: 40%;
 }
