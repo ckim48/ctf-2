@@ -3039,7 +3039,7 @@ textarea.form-control-lg {
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: #558985;
+  background-color: #556e89;
   border-color: #50817e;
 }
 .btn-check:focus + .btn-primary, .btn-primary:focus {
@@ -11614,7 +11614,11 @@ body {
 }
 .about-project{
   /* background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0%, #121212 55%, #040404 100%); */
-  background-color: #505050;
+  background-color: #93908B
+}
+.about-project2{
+/*background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0%, #121212 55%, #040404 100%); 
+*/background-color: #505050;
 }
 .about-section p {
   margin-bottom: 5rem;
@@ -11665,8 +11669,12 @@ body {
   letter-spacing: 0.15rem;
   border: 0;
 }
-
+footer{
+  background-color: lightgray;
+  color: black;
+}
 .contact-section {
+  background-color: lightgray;
   padding-top: 5rem;
 }
 .contact-section .card {
