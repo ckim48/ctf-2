@@ -6696,7 +6696,7 @@ textarea.form-control-lg {
 }
 
 .fixed-top {
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 0;
   left: 0;
@@ -11722,6 +11722,7 @@ footer{
 .loginBtn:hover{
   color: white;
 }
-.abc{
-  text-indent:10%
+
+.indentation{
+  text-indent: 10%;
 }
