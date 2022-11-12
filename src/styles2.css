@@ -6695,6 +6695,7 @@ textarea.form-control-lg {
   --bs-aspect-ratio: 42.8571428571%;
 }
 
+
 .fixed-top {
   position: fixed;
   top: 0;
@@ -11505,7 +11506,7 @@ body {
     padding-top: 0;
     padding-bottom: 0;
     border-bottom: none;
-    background-color: transparent;
+    background-color: black;
     transition: background-color 0.3s ease-in-out;
   }
   #mainNav .navbar-brand {
