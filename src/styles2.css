@@ -11719,3 +11719,6 @@ footer{
 .pj{
   width: 40%;
 }
+.loginBtn:hover{
+  color: white;
+}
