@@ -11721,7 +11721,12 @@ footer{
   width: 40%;
 }
 .loginBtn:hover{
+  background-color: white;
+}
+
+.loginBtn{
   color: white;
+  background-color: #0d6efd ;
 }
 
 .indentation{

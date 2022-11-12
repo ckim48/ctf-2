@@ -180,6 +180,15 @@ h1{
 .loginBtn{
   background-color: #585892;
   padding: 4px;
+  float: right;
+  text-decoration: none;
+  color: #fff;
+}
+
+.loginBtn:hover{
+  color: #585892;
+  background-color: #fff;
+  /* background-color: white; */
 }
 
 .toBlog{
