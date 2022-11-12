@@ -11722,3 +11722,7 @@ footer{
 .loginBtn:hover{
   color: white;
 }
+
+.indentation{
+  text-indent: 10%;
+}
