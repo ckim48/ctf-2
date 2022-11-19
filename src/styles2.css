@@ -11677,6 +11677,7 @@ footer{
 .contact-section {
   background-color: lightgray;
   padding-top: 5rem;
+  padding-bottom: 4rem;
 }
 .contact-section .card {
   border: 0;
@@ -11731,4 +11732,24 @@ footer{
 
 .indentation{
   text-indent: 10%;
+}
+
+.Future{
+  background-color: #93908b;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.Future h1{
+  color: white;
+  margin-left: 025rem;
+}
+
+.Future p{
+  color: white;
+  margin-left: 25rem;
+}
+
+.Join{
+  margin-left: 25rem;
 }
