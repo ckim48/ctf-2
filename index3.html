@@ -86,7 +86,7 @@
                     </div>
                 </div>
                  <center>
-                    <img class="img-fluid rounded-2 mb-5" src="src/img/hack.png" alt="..." data-aos="zoom-in" data-aos-duration="1500" width="70%"/>
+                    <img class="img-fluid rounded-2 mb-5" src="src/img/CTF.io.jpg" alt="..." data-aos="zoom-in" data-aos-duration="1500" width="70%"/>
             </center>
             </div>
         </section>
@@ -101,7 +101,8 @@
                         <p class="text-white-50" data-aos="fade-right" data-aos-duration="1500">
                            There are input boxes in the main page, a page for user to login. However, using sql injection, you can bypass login page and go to other pages.
                            Our goal is to insert a script in password input and trick the server by running it. Because the code simply runs the script, you can change values or boolean statement 
-                           that checks whether your password or username is correct.
+                           that checks whether your password or username is correct. For example, by having a single quote, we can close sql statement and inject our code, which is 1 is equal to 1. 
+                           Because it is always true, SQL code thinks that login step is successfully went through.
                         </p>
                     </div>
                     <div class="col-md-4 col-sm-2">
@@ -136,7 +137,7 @@
                     </div>
                 </div>
 
-                <a class="btn btn-primary mt-5" data-aos="fade-up" data-aos-duration="1500" href="index.html">Start Hacking</a>
+                <a class="btn btn-primary mt-5" data-aos="fade-up" data-aos-duration="1500" href="login3.html">Start Hacking</a>
 
             </div>
         </section>
@@ -196,9 +197,9 @@
         </section>
 
         <section class="Future" id="future">
-            <h1>Future work</h1>
+            <h1>Future Work</h1>
             <p>Web / App developing club on Monday. Coming Soon.</p>
-            <button class="btn btn-primary btn-sm rounded-2 Join">Join Our Club</button>
+            <button class="btn btn-primary btn-sm rounded-2 Join disabled">Join Our Club</button>
         </section>
         
         <!-- Footer-->
